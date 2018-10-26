@@ -17,14 +17,14 @@ contract Tsp {
         bytes hash, 
         bytes hash_meta, 
         bytes metamask_pkey, 
-        bytes wallet_address, 
+        address wallet_address, 
         bytes document_id
     );
 
     /*
      add document method
     */
-    function addDocument( bytes hash, bytes hash_meta, bytes metamask_pkey, bytes wallet_address, bytes document_id) public payable {
+    function addDocument( bytes hash, bytes hash_meta, bytes metamask_pkey, address wallet_address, bytes document_id) public payable {
         emit AddedDocument(hash , hash_meta, metamask_pkey,  wallet_address, document_id);
     }
     

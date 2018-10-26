@@ -16,7 +16,7 @@
 			},
 			{
 				"name": "wallet_address",
-				"type": "bytes"
+				"type": "address"
 			},
 			{
 				"name": "document_id",
@@ -50,7 +50,7 @@
 			{
 				"indexed": false,
 				"name": "wallet_address",
-				"type": "bytes"
+				"type": "address"
 			},
 			{
 				"indexed": false,
